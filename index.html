@@ -1,0 +1,54 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>gpak - Windows Executable Bundler</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>gpak</h1>
+            <p>A powerful tool to bundle executables and dependencies into a single file for Windows.</p>
+            <a href="https://github.com/RednibCoding/gpak" class="btn">View on GitHub</a>
+        </div>
+    </header>
+    
+    <section class="about" id="about">
+        <div class="container">
+            <h2>What is gpak?</h2>
+            <p><strong>gpak</strong> is a command-line tool designed for Windows that bundles an executable and its dependencies into a single self-extracting file. It simplifies the distribution of applications, ensuring users only need one file to execute the program with all its required dependencies.</p>
+            <p>On execution, the bundled executable will extract the files into a hidden folder in <code>%APPDATA%/gpak/&lt;app_name&gt;</code> and run the main executable automatically.</p>
+        </div>
+    </section>
+
+    <section class="usage" id="usage">
+        <div class="container">
+            <h2>How to Use</h2>
+            <p>Using <strong>gpak</strong> is simple. Just provide the main executable and any dependencies you need to bundle.</p>
+            <pre><code>gpak &lt;main_executable&gt; [&lt;dependency1&gt; &lt;dependency2&gt; ...]</code></pre>
+            <p>For example:</p>
+            <pre><code>gpak myapp.exe lib1.dll lib2.dll</code></pre>
+            <p>This will generate <code>myapp_bundle.exe</code> which users can execute as a single file.</p>
+        </div>
+    </section>
+
+    <section class="download" id="download">
+        <div class="container">
+            <h2>Download gpak</h2>
+            <p>You can download the latest version of <strong>gpak</strong> from the link below:</p>
+            <a href="https://github.com/RednibCoding/gpak/tree/master/bin/gpak.exe" class="btn">Download gpak</a>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 gpak. Built with love for Windows developers.</p>
+            <p><a href="https://github.com/RednibCoding/gpak">Give it a ⭐ on GitHub</a></p>
+        </div>
+    </footer>
+</body>
+</html>

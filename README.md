@@ -1,2 +1,2 @@
 # gpak-website
-Website for gpak
+Website for the gpak tool: https://github.com/RednibCoding/gpak-tool
